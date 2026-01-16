@@ -21,8 +21,8 @@
 }
 
 .item {
-  color: white;
-  background-color: transparent;
+  color: green; homepage link
+  background-color: blue;
   font-size: 16px;
   display: inline-block;
   box-sizing: border-box;
@@ -32,10 +32,11 @@
 }
 
 .item:hover {
-  background-color: rgba(0, 0, 0, 0.12);
+  background-color: rgba(73, 18, 173, 0.12);
 }
 
 @media (max-width: 560px) {
   .menu-right { display: none; }
+  background-color: black;
 }
 
